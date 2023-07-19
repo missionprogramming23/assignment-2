@@ -1,0 +1,7 @@
+nav{
+    width: 1920px;
+    height: 130px;
+    flex-shrink: 0;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
