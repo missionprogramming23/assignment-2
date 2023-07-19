@@ -1,7 +1,211 @@
-nav{
-    width: 1920px;
-    height: 130px;
+#logo{
+    width: 64px;
+    height: 32px;
+    margin-left: 100px;
+    
+}
+.flex-container{
+    width: 100%;
+    height: 100px;
     flex-shrink: 0;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    
+}
+.flex-container > .flex{
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+}
+.yt{
+    border: 1px solid none;
+    width: 220px;
+    height: 50px;
+    text-align: start;
+    padding-left: 20px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding-top: 30px;
+    margin-right: 100px;
+}
+.tiktok{
+    height: 23px;
+    padding-bottom: 5px;
+}
+.gamer{
+   color: #FF42A5 ; 
+  
+}
+
+.font-gamer{
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.banner-container{
+    display: flex;
+    
+}
+.banner-title{
+    text-align: center;
+    width: 900px;
+    height: 450px;
+    background-image: url('../B8A2-Gamer-Zone/images/Group\ 14.png');
+    margin-right: 160px;
+    background-position: 100%;
+}
+.banner-img img{
+    width: 480px;
+    height: 450px;
+    margin-left: 20px;
+    margin-right: 145px;
+    padding-bottom: 30px;
+}
+h4{
+    color: #0B0223;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.banner-title p{
+    color: #534C64;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.btn-1{
+    display: inline-flex;
+    padding: 15px 28px;
+    align-items: flex-start; 
+    border-radius: 30px;
+    background: #FF42A5 ;
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    border: none;
+    margin-right: 5px;
+    
+}
+.btn-2{
+    display: inline-flex;
+    padding:15px 28px;
+    align-items: flex-start;
+    border-radius: 48px;
+    background: #4EC5F7;
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    margin-left: 5px;
+}
+.main-container{
+    align-items: center;
+    margin-left: 150px;
+}
+
+.main-title{
+    text-align: center;
+    margin-right: 150px;
+
+}
+.common{
+    color: #0B0223;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.pp{
+    color: #534C64;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+}
+.funny{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+}
+.main-img{
+    display: flex;
+}
+.main-img img{
+    width: 230px;
+    height: 280px;
+    border-radius: 10px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    margin-left: 15px;
+}
+.img-text{
+    display: flex;
+}
+.p1{
+    width: 220px;
+    color: #534C64;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    padding-right: 1px;
+    padding-left: 10px;
+    margin-left: 5px;
+}
+.p2{
+    width: 220px;
+    color: #534C64;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    padding-left: 30px;
+}
+.p3{
+    width: 160px;
+    color: #534C64;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    padding-left: 25px;
+}
+.p4{
+    width: 200px;
+    color: #534C64;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    padding-left: 85px;
 }
